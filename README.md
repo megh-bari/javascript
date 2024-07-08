@@ -45,6 +45,7 @@ Here are some additional resources to help you learn JavaScript:
 - [w3schools - Javscript](https://www.w3schools.com/js/)
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [JavaScript.info](https://javascript.info/)
+- [Codehelp - Javascript](https://www.codehelp.in/tutorial/javascript/java-script-a-beginner-s-guide-to-programming-magic-1)
 
 - ## Youtube Channel:
 
