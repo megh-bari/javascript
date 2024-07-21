@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess The Number</h1>
+        <div class="instruction">
+            <h3>Instructions:</h3>
+            <p class="bullet">Try and guess the number between 1 and 100</p>
+            <p class="bullet">You have 10 attempts to guess the right number</p>
+        </div>
+        <form class="form">
+            <input type="text" id="guessId" class="guessId" placeholder="Enter Number Between 1 to 100">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <div class="result">
+            <p class="bullet">Previous Guesses: <span class="pre-guess"></span></p>
+            <p class="bullet">Guesses Remaining: <span class="remain-guess">10</span></p>
+        </div>
+        <p class="low-high"></p>
+        <footer>
+            <p>Made by <a href="https://github.com/megh-bari" target="_blank">Megh Bari</a></p>
+          </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
