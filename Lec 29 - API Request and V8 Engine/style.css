@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #212121;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .my-card {
+    height: 20vw;
+    width: 15vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .avatar {
+    display: none; /* Initially hide the avatar */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .avatar img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .followers {
+    display: none; /* Initially hide the followers count */
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  button {
+    border: none;
+    margin: 15px 20px;
+    padding: 12px 20px;
+    background-color: #1877f2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1655c0;
+    transform: scale(1.02);
+  }
+  
