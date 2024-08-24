@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexical Scoping</title>
+</head>
+
+<body style="background-color: #212121;">
+
+</body>
+<script>
+
+    // function init() {
+    //     let name = "megh"
+    //     function displayName() {
+    //         console.log(name)
+    //     }
+    //     displayName()
+    // }
+    // init()
+
+    // Lexical Scoping
+
+    function outer() {
+        let username = "megh"
+        // console.log(secret)
+        function inner() {
+            // let secret = "my123"
+            console.log(username)
+        }
+        function inner2() {
+            // console.log("secret", secret)
+            console.log("Inner two", username)
+        }
+        inner2()
+        inner()
+    }
+    outer()
+    // console.log("TOO OUTER", username)
+
+</script>
+
+</html>
